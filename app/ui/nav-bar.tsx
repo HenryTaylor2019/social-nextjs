@@ -16,7 +16,9 @@ export default function Nav() {
     const pathname = usePathname();
     return (
         <>
-            <NavLinks />
+            <div className="flex w-full gap-2 p-2 justify-end">
+                <NavLinks />
+            </div>
         </>
     );
 }
